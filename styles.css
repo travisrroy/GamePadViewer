@@ -1,56 +1,38 @@
 /*BEGIN PS4 Controller Styling*/
-.controller.ds4 {
+.controller.edit {
     background: url(assets/base.svg);
-    height: 598px;
-    width: 806px;
-    /*    margin-left: -403px;
-        margin-top: -280px;*/
 }
 
-.ds4 .abxy {
+.edit .button {
     position: absolute;
-    width: 170px;
-    height: 171px;
-    top: 159px;
-    left: 567px;
-}
-
-.ds4 .button {
-    position: absolute;
-    width: 55px;
-    height: 55px;
     background: url(assets/face.svg);
 }
 
-.ds4 .button.pressed {
+.edit .button.pressed {
     background-position-y: 55px;
     /* margin-top: 5px; */
 }
 
-.ds4 .a {
+.edit .a {
     background-position: 0 0;
     bottom: 0;
     left: 58px;
 }
 
-.ds4 .b {
+.edit .b {
     background-position: -57px 0;
     top: 58px;
     right: 0px;
 }
 
-.ds4 .x {
+.edit .x {
     background-position: -113px 0;
     top: 58px;
 }
 
-.ds4 .y {
+.edit .y {
     background-position: 55px 0;
     left: 58px;
-}
-
-.ds4.half {
-    margin-top: -300px;
 }
 
 /*END PS4 Controller Styling*/
